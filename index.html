@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechMind18 — Shivay Solanki</title>
+  <meta name="description" content="TechMind18 — AI, puzzles and e-commerce by Shivay Solanki." />
+  <style>
+    :root{
+      --bg1:#070b1a; --bg2:#0f172a;
+      --accent1:#2563eb; --accent2:#7c3aed;
+      --muted:#9aa8bf;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Roboto,Arial;
+      background:linear-gradient(180deg,var(--bg1),var(--bg2));
+      color:#e6eef8;
+      line-height:1.6;
+    }
+    .container{max-width:1000px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+    .logo{width:44px;height:44;border-radius:8px;display:grid;place-items:center;background:linear-gradient(90deg,var(--accent1),var(--accent2));font-weight:800;color:#041428}
+    nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-weight:600}
+    .hero{padding:60px 0;text-align:center}
+    h1{font-size:2.2rem;margin:0}
+    .grad{background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;color:transparent;font-weight:800}
+    p.lead{color:var(--muted);margin-top:12px;font-size:1.1rem}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;margin-top:20px}
+    .primary{background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#fff}
+    section{margin:60px 0}
+    h2{font-size:1.6rem;margin-bottom:12px}
+    h2 .highlight{background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;color:transparent;}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:rgba(255,255,255,0.05);padding:22px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.4)}
+    .card h3{margin-top:0;color:#fff}
+    .muted{color:var(--muted)}
+    footer{padding:28px 0;text-align:center;color:var(--muted);border-top:1px solid rgba(255,255,255,0.05)}
+    ul{list-style: none;padding-left:0}
+    ul li{margin:6px 0}
+    @media(max-width:800px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="container">
+    <a class="brand" href="#home">
+      <div class="logo">TM</div>
+      <div>
+        <div style="font-weight:800">TechMind18</div>
+        <div style="font-size:13px;color:var(--muted)">AI · Puzzles · E-commerce</div>
+      </div>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Upcoming Projects</a>
+      <a href="#business">Business Config</a>
+      <a href="#vision">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container" id="home">
+    <section class="hero">
+      <h1>Building the Future with <span class="grad">AI, Games & Commerce</span></h1>
+      <p class="lead">Welcome to TechMind18 — founded by Shivay Solanki. We are crafting intelligent puzzle games, innovative AI solutions, and future-ready e-commerce ideas.</p>
+      <a class="btn primary" href="#contact">Join Our Journey</a>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p class="muted">TechMind18 is a startup-in-progress by <strong>Shivay Solanki</strong>, driven by technology and artificial intelligence. We focus on creating engaging puzzle games like <em>Genius Puzzles</em> while also exploring the future of e-commerce powered by AI.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our <span class="highlight">Upcoming</span> Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🤖 AI Integration</h3>
+          <p class="muted">We specialize in building AI-powered solutions that learn, adapt, and personalize user experiences. From machine learning models to natural language understanding, our aim is to integrate AI into real-world applications that make life smarter and easier.</p>
+        </div>
+        <div class="card">
+          <h3>🎮 Puzzle Games</h3>
+          <p class="muted">Through <strong>Genius Puzzles</strong>, we’re designing games that challenge the mind, improve reasoning, and make learning fun. Our puzzle games are interactive, adaptive, and built for students, professionals, and curious thinkers who love mental challenges.</p>
+        </div>
+        <div class="card">
+          <h3>🛒 E-commerce Innovation</h3>
+          <p class="muted">We aim to build future-ready commerce platforms powered by AI — offering personalization, automation, and intelligent product recommendations. Our focus is on creating smarter shopping experiences where users get exactly what they need, when they need it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="business">
+      <h2>⚙️ Business Configuration</h2>
+      <ul>
+        <li><strong>Company Name:</strong> TechMind18</li>
+        <li><strong>Founder:</strong> Shivay Solanki</li>
+        <li><strong>Core Focus:</strong> Artificial Intelligence & Puzzle Game Development</li>
+        <li><strong>AI Applications:</strong> Smart learning assistants, adaptive puzzle engines, AI-driven personalization</li>
+        <li><strong>Games:</strong> Genius Puzzle Series, AI-powered gamification for learning</li>
+        <li><strong>Mission:</strong> To make learning fun and intelligent by combining AI innovation with engaging puzzle games.</li>
+        <li><strong>Vision:</strong> To become a global hub for AI-powered educational games and expand into AI-driven e-commerce solutions.</li>
+      </ul>
+    </section>
+
+    <section id="vision">
+      <h2>Our Vision</h2>
+      <p class="muted">At TechMind18, we believe the future belongs to those who combine creativity with intelligence. Our vision is to empower millions through interactive puzzles, bring AI to everyday learning, and shape smarter e-commerce systems that grow with user needs.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p class="muted">Let’s connect! Reach out to us anytime:</p>
+      <ul>
+        <li>Email: <a href="mailto:shivaysolanki83@gmail.com">shivaysolanki83@gmail.com</a></li>
+        <li>Instagram: <a href="https://instagram.com/shivayy18_" target="_blank">@shivayy18_</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> TechMind18 — Shivay Solanki. All Rights Reserved.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
